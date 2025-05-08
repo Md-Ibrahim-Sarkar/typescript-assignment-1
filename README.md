@@ -10,8 +10,8 @@ It is useful for checking the type of functions.
 The code is correct.
 
 
-For example 
-```
+**For example**
+```ts
 type Person = {
   name: string;
   age: number;
@@ -29,8 +29,8 @@ Here PersonKeys can just mean "name" or "age". Anything beyond that will be capt
 
  Union means — "or" "|" . It means that a variable can be any one of multiple types.
 
- Example 
-```
+ **Example**
+```ts
 type ID = string | number;
 
 let userId: ID;
@@ -42,8 +42,8 @@ userId = 101;
 # intersection type
 
 Intersection means — "and" "&" . It means that a variable must have multiple types of properties together.
-
-```
+**Example**
+```ts
 type Name = { name: string };
 type Age = { age: number };
 
